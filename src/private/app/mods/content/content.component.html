@@ -1,0 +1,10 @@
+<md-toolbar color="primary">
+    <span>{{title}}</span>
+</md-toolbar>
+<div class="content">
+
+    <router-outlet></router-outlet>
+</div>
+<button md-fab routerLink="edit" *ngIf="!hideAdd">
+   <md-icon class="md-24">add</md-icon>
+</button>

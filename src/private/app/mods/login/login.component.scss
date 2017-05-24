@@ -1,0 +1,14 @@
+.login_input {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 323px;
+    margin-top: 100px;
+    .error-form {
+        color: red;
+    }
+    button,
+    md-input-container {
+        width: 100%;
+    }
+}

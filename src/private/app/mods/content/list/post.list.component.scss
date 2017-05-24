@@ -1,0 +1,24 @@
+.cards-container {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 30px;
+
+    md-card {
+        width: 95%;
+        margin: 10px 0px;
+        display: flex;
+        flex-flow: row;
+        box-sizing: border-box;
+        .icon-post.md-36 {
+            font-size: 36px;
+            width: 50px;
+        }
+        &:hover {
+            background-color: #DDD;
+            border: 1px solid aquamarine;
+        }
+    }
+    
+}

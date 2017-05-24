@@ -1,0 +1,12 @@
+:host {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
